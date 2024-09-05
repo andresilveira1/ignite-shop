@@ -1,5 +1,12 @@
 {
   "extends": [
     "@rocketseat/eslint-config/next"
-  ]
+  ],
+  "plugins": [
+    "simple-import-sort"
+  ],
+  "rules": {
+    "camelcase": "off",
+    "simple-import-sort/imports": "error"
+  }
 }
